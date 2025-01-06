@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Port Scanner with echo on local ports
+#Port Scanner with echo on local ports in background
 
 function ctrl_c(){
   echo -e "\n\n[+] Saliendo .....\n"
