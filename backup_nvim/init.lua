@@ -10,6 +10,13 @@ vim.opt.cursorline = true
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
+-- Configurar el símbolo de retorno de carro para las líneas que se ajustan
+vim.opt.showbreak = "↪ "
+-- Para identar la línea del símbolo retorno de carro
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.breakindent = true
+
 -- Establecer portapapeles del sistema
 vim.opt.clipboard = ("unnamedplus")
 
